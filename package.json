@@ -1,0 +1,22 @@
+{
+  "name": "@amaarhassancs/dusk-protos",
+  "description": "Proto files for the dusk project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && mkdirp dist && chmod +x build.sh && build.sh && tsc && cp -r src/proto ./dist/src",
+    "test": "exit 0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mkdirp": "^3.0.1",
+    "rimraf": "^6.0.1",
+    "ts-proto": "^1.181.1",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.11.1",
+    "protobufjs": "^7.3.2"
+  }
+}
