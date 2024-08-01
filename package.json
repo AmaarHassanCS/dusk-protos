@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf dist && mkdirp dist && chmod +x build.sh && build.sh && tsc && cp -r src/proto ./dist/src",
+    "build": "rimraf dist && mkdirp dist && chmod +x ./build.sh && ./build.sh && tsc && cp -r src/proto ./dist/src",
     "test": "exit 0"
   },
   "author": "",
