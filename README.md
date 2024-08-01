@@ -2,6 +2,8 @@
 
 # How to push
 
+git config user.name "AmaarHassanCS"
+git config user.email "amaarhassancs@gmail.com"
 GIT_SSH_COMMAND="ssh -i ./.ssh/key_personal_rsa" git push origin develop
 
 ## How to setup from scratch?
