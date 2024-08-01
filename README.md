@@ -1,5 +1,9 @@
 # dusk-protos
 
+# How to push
+
+GIT_SSH_COMMAND="ssh -i ./.ssh/key_personal_rsa" git push origin develop
+
 ## How to setup from scratch?
 
 Since this is going to be used as a published package on the Github, it needs to be published to npm and linked to github.
