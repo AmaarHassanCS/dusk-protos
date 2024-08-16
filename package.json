@@ -1,7 +1,7 @@
 {
   "name": "@amaarhassancs/dusk-protos",
   "description": "Proto files for the dusk project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && mkdirp dist && chmod +x ./build.sh && ./build.sh && tsc && cp -r src/proto ./dist/src",
